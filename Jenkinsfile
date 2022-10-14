@@ -13,7 +13,7 @@ pipeline {
     }  
     stage('Start') {
       steps {
-        bat 'npm start'
+        bat 'npm run dev'
       }
     }
   
