@@ -1,6 +1,5 @@
 FROM node:alpine
-WORKDIR /app
-COPY . .
+COPY ./ ./
 EXPOSE 5173
-RUN npm i
+RUN npm install
 CMD ["npm", "run", "dev"]
