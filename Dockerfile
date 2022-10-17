@@ -1,5 +1,5 @@
 FROM node:alpine
 COPY ./ ./
-EXPOSE 5173
 RUN npm install
+EXPOSE 5173
 CMD ["npm", "run", "dev"]
